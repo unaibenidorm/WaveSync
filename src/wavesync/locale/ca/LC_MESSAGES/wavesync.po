@@ -1,0 +1,1772 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the WaveSync package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: WaveSync 0.1.0\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-10-16 11:37+0200\nPO-Revision-Date: 2026-10-16 11:45+0200\nLast-Translator: WaveSync Developers\nLanguage-Team: ca\nLanguage: ca\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+
+#: src/wavesync/ui/compare_view.py:397
+msgid " (sin analizar)"
+msgstr " (sense analitzar)"
+
+#: src/wavesync/ui/inputs_view.py:703
+msgid " · HDR"
+msgstr " · HDR"
+
+#: src/wavesync/ui/inputs_view.py:703
+msgid " · SDR"
+msgstr " · SDR"
+
+#: src/wavesync/ui/export_view.py:435 src/wavesync/ui/sync_view.py:260
+#, python-brace-format
+msgid " · {k} tramos"
+msgstr " · {k} trams"
+
+#: src/wavesync/ui/window.py:125
+msgid "1. Entradas"
+msgstr "1. Entrades"
+
+#: src/wavesync/ui/preferences.py:178
+msgid "1. Selecciona tus archivos"
+msgstr "1. Selecciona els teus fitxers"
+
+#: src/wavesync/ui/preferences.py:186
+msgid "2. Sincroniza y compara"
+msgstr "2. Sincronitza i compara"
+
+#: src/wavesync/ui/window.py:126
+msgid "2. Sincronización"
+msgstr "2. Sincronització"
+
+#: src/wavesync/ui/window.py:127
+msgid "3. Comparar y ajustar"
+msgstr "3. Comparar i ajustar"
+
+#: src/wavesync/ui/preferences.py:194
+msgid "3. Exporta sin perder calidad"
+msgstr "3. Exporta sense perdre qualitat"
+
+#: src/wavesync/ui/window.py:128
+msgid "4. Exportar"
+msgstr "4. Exportar"
+
+#: src/wavesync/ui/compare_view.py:231
+msgid "Abrir clip en reproductor externo"
+msgstr "Obrir clip en reproductor extern"
+
+#: src/wavesync/ui/sync_view.py:174
+msgid "Abrir en el comparador A/B y ajuste manual →"
+msgstr "Obrir en el comparador A/B i ajust manual →"
+
+#: src/wavesync/ui/window.py:271
+msgid "Aceptar"
+msgstr "D'acord"
+
+#: src/wavesync/ui/window.py:219
+msgid "Acerca de WaveSync"
+msgstr "Quant a WaveSync"
+
+#: src/wavesync/ui/preferences.py:246
+msgid "Activar modo experto"
+msgstr "Activar mode expert"
+
+#: src/wavesync/ui/inputs_view.py:69
+msgid "Activar sincronización por lotes"
+msgstr "Activar sincronització per lots"
+
+#: src/wavesync/ui/export_view.py:279
+msgid "Al terminar la exportación se comprobarán vídeo, pistas, idioma, título y duración."
+msgstr "En acabar l'exportació es comprovaran vídeo, pistes, idioma, títol i durada."
+
+#: src/wavesync/ui/sync_view.py:60
+msgid "Alinea las imágenes con normalización por rangos y refina a precisión sub-milisegundo con GCC-PHAT sobre la banda sonora."
+msgstr "Alinea les imatges amb normalització per rangs i refina a precisió submilisegon amb GCC-PHAT sobre la banda sonora."
+
+#: src/wavesync/ui/compare_view.py:192 src/wavesync/ui/compare_view.py:777
+msgid "Ampliar reproductor"
+msgstr "Ampliar reproductor"
+
+#: src/wavesync/core/sync.py:209
+msgid "Analizando ventanas…"
+msgstr "Analitzant finestres…"
+
+#: src/wavesync/ui/preferences.py:258
+msgid "Anterior"
+msgstr "Anterior"
+
+#: src/wavesync/ui/sync_view.py:58
+msgid "Análisis automático (vídeo primero, audio como refinamiento)"
+msgstr "Anàlisi automàtica (vídeo primer, àudio com a refinament)"
+
+#: src/wavesync/ui/sync_view.py:383
+msgid "Análisis cancelado."
+msgstr "Anàlisi cancel·lada."
+
+#: src/wavesync/core/sync.py:345
+msgid "Análisis completado."
+msgstr "Anàlisi completada."
+
+#: src/wavesync/ui/sync_view.py:372
+#, python-brace-format
+msgid "Análisis completado: {verdict} ({ms:+.1f} ms)"
+msgstr "Anàlisi completada: {verdict} ({ms:+.1f} ms)"
+
+#: src/wavesync/ui/preferences.py:407
+msgid "Apariencia"
+msgstr "Aparença"
+
+#: src/wavesync/ui/compare_view.py:257
+msgid "Aplica el ajuste fino de cada tramo detectado a lo largo de la película"
+msgstr "Aplica l'ajust fi de cada tram detectat al llarg de la pel·lícula"
+
+#: src/wavesync/ui/compare_view.py:279
+msgid "Aplica factores exactos para conversiones NTSC / Cine / PAL"
+msgstr "Aplica factors exactes per a conversions NTSC / Cinema / PAL"
+
+#: src/wavesync/ui/compare_view.py:585
+#, python-brace-format
+msgid "Aplicando {n} tramos con ajuste fino por zona"
+msgstr "Aplicant {n} trams amb ajust fi per zona"
+
+#: src/wavesync/ui/export_view.py:423
+msgid "Aplicar a todo el lote"
+msgstr "Aplicar a tot el lot"
+
+#: src/wavesync/ui/inputs_view.py:543
+#, python-brace-format
+msgid "Archivo A cargado: {name}"
+msgstr "Fitxer A carregat: {name}"
+
+#: src/wavesync/ui/inputs_view.py:79 src/wavesync/ui/inputs_view.py:643
+msgid "Archivo A — Vídeo máster (alta calidad)"
+msgstr "Fitxer A — Vídeo màster (alta qualitat)"
+
+#: src/wavesync/ui/inputs_view.py:553
+#, python-brace-format
+msgid "Archivo B cargado: {name}"
+msgstr "Fitxer B carregat: {name}"
+
+#: src/wavesync/ui/inputs_view.py:114 src/wavesync/ui/inputs_view.py:647
+msgid "Archivo B — Fuente del audio a sincronizar"
+msgstr "Fitxer B — Font de l'àudio a sincronitzar"
+
+#: src/wavesync/ui/export_view.py:234
+msgid "Archivo de destino y exportación"
+msgstr "Fitxer de destinació i exportació"
+
+#: src/wavesync/ui/export_view.py:240 src/wavesync/ui/export_view.py:369
+msgid "Archivo de salida"
+msgstr "Fitxer d'eixida"
+
+#: src/wavesync/ui/inputs_view.py:606
+msgid "Archivos A — Vídeos máster por lotes (alta calidad)"
+msgstr "Fitxers A — Vídeos màster per lots (alta qualitat)"
+
+#: src/wavesync/ui/inputs_view.py:610
+msgid "Archivos B — Fuentes del audio a sincronizar por lotes"
+msgstr "Fitxers B — Fonts de l'àudio a sincronitzar per lots"
+
+#: src/wavesync/ui/export_view.py:581
+msgid "Archivos de subtítulos"
+msgstr "Fitxers de subtítols"
+
+#: src/wavesync/ui/export_view.py:706 src/wavesync/ui/inputs_view.py:235
+#: src/wavesync/ui/inputs_view.py:311
+msgid "Archivos de vídeo y audio"
+msgstr "Fitxers de vídeo i àudio"
+
+#: src/wavesync/ui/sync_view.py:68
+msgid "Auméntalo si hay logos de productora o introducciones muy largas"
+msgstr "Augmenta'l si hi ha logotips de productora o intros molt llargues"
+
+#: src/wavesync/ui/preferences.py:448
+msgid "Autor y mantenedor de WaveSync"
+msgstr "Autor i mantenidor de WaveSync"
+
+#: src/wavesync/ui/player.py:394
+#, python-brace-format
+msgid "Aviso en reproducción de audio B: {err}"
+msgstr "Avís en reproducció d'àudio B: {err}"
+
+#: src/wavesync/ui/export_view.py:118
+msgid "Aviso: MP4 tiene limitaciones con subtítulos (ASS/SRT/PGS), capítulos y códecs como FLAC. Se recomienda usar MKV salvo que necesites MP4 explícitamente."
+msgstr "Avís: MP4 té limitacions amb subtítols (ASS/SRT/PGS), capítols i còdecs com FLAC. Es recomana utilitzar MKV tret que necessites MP4 explícitament."
+
+#: src/wavesync/ui/export_view.py:227
+msgid "Añade archivos SRT, ASS, WebVTT o SUP al contenedor exportado."
+msgstr "Afig fitxers SRT, ASS, WebVTT o SUP al contenidor exportat."
+
+#: src/wavesync/ui/inputs_view.py:636
+msgid "Añade películas para continuar →"
+msgstr "Afig pel·lícules per a continuar →"
+
+#: src/wavesync/ui/inputs_view.py:467
+#, python-brace-format
+msgid "Añade una a una o varias películas a sincronizar (total: {n})"
+msgstr "Afig una a una o diverses pel·lícules a sincronitzar (total: {n})"
+
+#: src/wavesync/ui/inputs_view.py:410
+#, python-brace-format
+msgid "Añade una a una o varias películas máster (total: {n})"
+msgstr "Afig una a una o diverses pel·lícules màster (total: {n})"
+
+#: src/wavesync/ui/export_view.py:703
+msgid "Añadir archivo con pistas a sincronizar…"
+msgstr "Afegir fitxer amb pistes a sincronitzar…"
+
+#: src/wavesync/ui/inputs_view.py:230
+msgid "Añadir archivo de audio adicional"
+msgstr "Afegir fitxer d'àudio addicional"
+
+#: src/wavesync/ui/export_view.py:562
+msgid "Añadir archivos…"
+msgstr "Afegir fitxers…"
+
+#: src/wavesync/ui/inputs_view.py:149
+msgid "Añadir archivo…"
+msgstr "Afegir fitxer…"
+
+#: src/wavesync/ui/export_view.py:626
+msgid "Añadir otro archivo…"
+msgstr "Afegir un altre fitxer…"
+
+#: src/wavesync/ui/inputs_view.py:307 src/wavesync/ui/inputs_view.py:465
+msgid "Añadir películas a sincronizar"
+msgstr "Afegir pel·lícules a sincronitzar"
+
+#: src/wavesync/ui/inputs_view.py:307
+msgid "Añadir películas del máster"
+msgstr "Afegir pel·lícules del màster"
+
+#: src/wavesync/ui/inputs_view.py:408
+msgid "Añadir películas máster"
+msgstr "Afegir pel·lícules màster"
+
+#: src/wavesync/ui/export_view.py:628
+msgid "Añadir pistas de audio de otro archivo adicional a sincronizar"
+msgstr "Afegir pistes d'àudio d'un altre fitxer addicional a sincronitzar"
+
+#: src/wavesync/ui/inputs_view.py:146
+msgid "Añadir pistas de otro archivo a sincronizar"
+msgstr "Afegir pistes d'un altre fitxer a sincronitzar"
+
+#: src/wavesync/ui/export_view.py:558 src/wavesync/ui/export_view.py:578
+msgid "Añadir subtítulos"
+msgstr "Afegir subtítols"
+
+#: src/wavesync/ui/inputs_view.py:413 src/wavesync/ui/inputs_view.py:470
+msgid "Añadir…"
+msgstr "Afegir…"
+
+#: src/wavesync/ui/export_view.py:278
+msgid "Aún no se ha exportado ningún archivo"
+msgstr "Encara no s'ha exportat cap fitxer"
+
+#: src/wavesync/core/sync.py:104
+msgid "B no tiene vídeo: se sincroniza solo por audio. Entre idiomas distintos el resultado es menos fiable; revísalo en el comparador."
+msgstr "B no té vídeo: es sincronitza només per àudio. Entre idiomes diferents el resultat és menys fiable; revisa'l en el comparador."
+
+#: src/wavesync/core/sync.py:89
+#, python-brace-format
+msgid "Backend de extracción: {backend}"
+msgstr "Backend d'extracció: {backend}"
+
+#: src/wavesync/ui/sync_view.py:153
+msgid "Banda superior: tramos detectados · Puntos inferiores: offset por ventana (verde = alta confianza, ámbar = media, rojo = baja)."
+msgstr "Banda superior: trams detectats · Punts inferiors: desplaçament per finestra (verd = confiança alta, ambre = mitjana, vermell = baixa)."
+
+#: src/wavesync/ui/preferences.py:170
+msgid "Bienvenido a WaveSync"
+msgstr "Benvingut a WaveSync"
+
+#: src/wavesync/ui/export_view.py:185
+msgid "Bitrate de audio (kbps)"
+msgstr "Taxa de bits d'àudio (kbps)"
+
+#: src/wavesync/ui/preferences.py:318 src/wavesync/ui/preferences.py:377
+msgid "Borrar todo"
+msgstr "Esborrar-ho tot"
+
+#: src/wavesync/ui/preferences.py:375
+msgid "Borrar todo el historial"
+msgstr "Esborrar tot l'historial"
+
+#: src/wavesync/core/sync.py:221
+#, python-brace-format
+msgid "Buscando en rango ampliado (±{s:.0f} s) por posibles intros diferentes…"
+msgstr "Buscant en rang ampliat (±{s:.0f} s) per possibles intros diferents…"
+
+#: src/wavesync/ui/compare_view.py:313
+msgid "Buscar idioma (nombre en español, idioma nativo o código)"
+msgstr "Cercar idioma (nom en espanyol, idioma natiu o codi)"
+
+#: src/wavesync/core/ffmpeg.py:113
+msgid "CPU (sin aceleración hardware FFmpeg)"
+msgstr "CPU (sense acceleració per maquinari FFmpeg)"
+
+#: src/wavesync/ui/export_view.py:132
+msgid "Cada película se exportará con su propio offset, tempo, tramos y pistas configuradas. Pulsa «Configurar pistas» en cualquier película para editar sus pistas abajo."
+msgstr "Cada pel·lícula s'exportarà amb el seu propi desplaçament, tempo, trams i pistes configurades. Prem «Configurar pistes» en qualsevol pel·lícula per editar les seues pistes a baix."
+
+#: src/wavesync/ui/compare_view.py:238
+msgid "Calibración manual de sincronización"
+msgstr "Calibració manual de sincronització"
+
+#: src/wavesync/ui/compare_view.py:88
+msgid "Cambia entre las películas del lote"
+msgstr "Canvia entre les pel·lícules del lot"
+
+#: src/wavesync/ui/compare_view.py:794
+msgid "Cambiar audio A/B · A activo"
+msgstr "Canviar àudio A/B · A actiu"
+
+#: src/wavesync/ui/compare_view.py:791
+msgid "Cambiar audio A/B · B activo"
+msgstr "Canviar àudio A/B · B actiu"
+
+#: src/wavesync/ui/compare_view.py:186
+msgid "Cambiar audio A/B — [Tab / B]"
+msgstr "Canviar àudio A/B — [Tab / B]"
+
+#: src/wavesync/ui/export_view.py:1121 src/wavesync/ui/preferences.py:362
+#: src/wavesync/ui/preferences.py:376 src/wavesync/ui/sync_view.py:103
+msgid "Cancelar"
+msgstr "Cancel·lar"
+
+#: src/wavesync/ui/export_view.py:259
+msgid "Cancelar exportación"
+msgstr "Cancel·lar exportació"
+
+#: src/wavesync/ui/sync_view.py:136 src/wavesync/ui/sync_view.py:511
+msgid "Carga los archivos A y B y pulsa «Iniciar sincronización automática»."
+msgstr "Carrega els fitxers A i B i prem «Iniciar sincronització automàtica»."
+
+#: src/wavesync/ui/export_view.py:344
+msgid "Carpeta de salida del lote"
+msgstr "Carpeta d'eixida del lot"
+
+#: src/wavesync/ui/export_view.py:349 src/wavesync/ui/export_view.py:836
+#, python-brace-format
+msgid "Carpeta de salida del lote: {path}"
+msgstr "Carpeta d'eixida del lot: {path}"
+
+#: src/wavesync/ui/compare_view.py:350
+msgid "Castellano"
+msgstr "Castellà"
+
+#: src/wavesync/ui/preferences.py:412
+msgid "Claro"
+msgstr "Clar"
+
+#: src/wavesync/ui/player.py:877
+msgid "Clip de previsualización listo."
+msgstr "Clip de previsualització llest."
+
+#: src/wavesync/ui/sync_view.py:302
+msgid "Comparar A/B"
+msgstr "Comparar A/B"
+
+#: src/wavesync/ui/export_view.py:913
+msgid "Con tempo ≠ 1.0 o múltiples tramos no es posible la copia directa; se recodificará en AAC."
+msgstr "Amb tempo ≠ 1.0 o múltiples trams no és possible la còpia directa; es recodificarà en AAC."
+
+#: src/wavesync/ui/sync_view.py:555
+#, python-brace-format
+msgid "Confianza baja ({c:.0%}): puede que no sea el mismo vídeo o que haya demasiada diferencia."
+msgstr "Confiança baixa ({c:.0%}): pot ser que no sigui el mateix vídeo o que hi hagi massa diferència."
+
+#: src/wavesync/core/sync.py:340
+#, python-brace-format
+msgid "Confianza baja ({c:.0%}): puede que no sea el mismo vídeo o que haya demasiada diferencia. Revisa el resultado en el comparador."
+msgstr "Confiança baixa ({c:.0%}): pot ser que no sigui el mateix vídeo o que hi hagi massa diferència. Revisa el resultat al comparador."
+
+#: src/wavesync/ui/sync_view.py:528
+#, python-brace-format
+msgid "Confianza global: {c:.1%} · Modo: {m} · Ventanas válidas: {k}/{n}"
+msgstr "Confiança global: {c:.1%} · Mode: {m} · Finestres vàlides: {k}/{n}"
+
+#: src/wavesync/ui/sync_view.py:577
+#, python-brace-format
+msgid "Confianza: {c:.0%} · {n} ventanas de medición"
+msgstr "Confiança: {c:.0%} · {n} finestres de mesurament"
+
+#: src/wavesync/ui/export_view.py:471
+msgid "Configurando"
+msgstr "Configurant"
+
+#: src/wavesync/ui/export_view.py:471
+msgid "Configurar pistas"
+msgstr "Configurar pistes"
+
+#: src/wavesync/ui/export_view.py:191
+msgid "Conservar pistas de audio originales del máster A"
+msgstr "Conservar pistes d'àudio originals del màster A"
+
+#: src/wavesync/ui/compare_view.py:293
+msgid "Conservar tono (FFmpeg atempo)"
+msgstr "Conservar to (FFmpeg atempo)"
+
+#: src/wavesync/ui/export_view.py:200
+msgid "Construir pista por tramos de montaje"
+msgstr "Construir pista per trams de muntatge"
+
+#: src/wavesync/ui/export_view.py:160
+msgid "Contenedor de salida"
+msgstr "Contenidor d'eixida"
+
+#: src/wavesync/ui/export_view.py:141
+msgid "Contenedor y codificación de audio"
+msgstr "Contenidor i codificació d'àudio"
+
+#: src/wavesync/ui/compare_view.py:360
+msgid "Continuar a Exportación →"
+msgstr "Continuar a Exportació →"
+
+#: src/wavesync/ui/inputs_view.py:633
+#, python-brace-format
+msgid "Continuar a sincronización por lotes ({n} películas) →"
+msgstr "Continuar a sincronització per lots ({n} pel·lícules) →"
+
+#: src/wavesync/ui/inputs_view.py:161 src/wavesync/ui/inputs_view.py:675
+msgid "Continuar al análisis de sincronización →"
+msgstr "Continuar a l'anàlisi de sincronització →"
+
+#: src/wavesync/ui/compare_view.py:762
+msgid "Contraer reproductor"
+msgstr "Contraure reproductor"
+
+#: src/wavesync/ui/compare_view.py:134
+msgid "Contraer reproductor aquí"
+msgstr "Contraure reproductor ací"
+
+#: src/wavesync/ui/compare_view.py:240
+msgid "Convención: «tempo» es el multiplicador de velocidad aplicado al audio B (t_A = t_B / tempo + offset). Offset > 0 retrasa B insertando silencio."
+msgstr "Convenció: «tempo» és el multiplicador de velocitat aplicat a l'àudio B (t_A = t_B / tempo + offset). Offset > 0 retarda B inserint silenci."
+
+#: src/wavesync/core/export.py:366
+msgid "Copia directa con offset negativo: el recorte inicial tiene la precisión de un fotograma del códec de audio (~20–32 ms). Para precisión sub-milisegundo, recodifica la pista."
+msgstr "Còpia directa amb offset negatiu: la retallada inicial té la precisió d'un fotograma del còdec d'àudio (~20–32 ms). Per a precisió submilisegon, recodifica la pista."
+
+#: src/wavesync/ui/export_view.py:420
+msgid "Copia el idioma y título de la película activa actual a todas las demás películas del lote"
+msgstr "Copia l'idioma i títol de la pel·lícula activa actual a totes les altres pel·lícules del lot"
+
+#: src/wavesync/ui/compare_view.py:294
+msgid "Corregir tono PAL (FFmpeg asetrate + aresample)"
+msgstr "Corregir to PAL (FFmpeg asetrate + aresample)"
+
+#: src/wavesync/ui/sync_view.py:85
+msgid "Correlación de envolventes de flujo espectral"
+msgstr "Correlació d'envolupants de flux espectral"
+
+#: src/wavesync/ui/preferences.py:447
+msgid "Creado por unaibenidorm"
+msgstr "Creat per unaibenidorm"
+
+#: src/wavesync/ui/preferences.py:444
+msgid "Créditos"
+msgstr "Crèdits"
+
+#: src/wavesync/core/export.py:301
+#, python-brace-format
+msgid "Códec de audio no soportado: {c}"
+msgstr "Còdec d'àudio no admés: {c}"
+
+#: src/wavesync/ui/export_view.py:169
+msgid "Códec para las nuevas pistas de audio"
+msgstr "Còdec per a les noves pistes d'àudio"
+
+#: src/wavesync/ui/export_view.py:177
+msgid "Códecs disponibles: AAC, AC-3, E-AC-3, FLAC, Opus o copia directa cuando tempo = 1.0."
+msgstr "Còdecs disponibles: AAC, AC-3, E-AC-3, FLAC, Opus o còpia directa quan tempo = 1.0."
+
+#: src/wavesync/ui/compare_view.py:333
+msgid "Código de idioma (ISO 639-2 o libre)"
+msgstr "Codi d'idioma (ISO 639-2 o lliure)"
+
+#: src/wavesync/ui/export_view.py:665
+msgid "Código de idioma ISO 639-2"
+msgstr "Codi d'idioma ISO 639-2"
+
+#: src/wavesync/core/export.py:298
+msgid "Debes seleccionar al menos una pista de audio (del máster o de la fuente B) para exportar."
+msgstr "Has de seleccionar com a mínim una pista d'àudio (del màster o de la font B) per exportar."
+
+#: src/wavesync/ui/sync_view.py:86
+msgid "Desactivado (solo vídeo)"
+msgstr "Desactivat (només vídeo)"
+
+#: src/wavesync/ui/export_view.py:622
+msgid "Deseleccionar todas las pistas"
+msgstr "Deseleccionar totes les pistes"
+
+#: src/wavesync/ui/export_view.py:210
+msgid "Desmarca las pistas que no quieras conservar en el archivo final."
+msgstr "Desmarca les pistes que no vulgues conservar al fitxer final."
+
+#: src/wavesync/ui/sync_view.py:166
+msgid "Detalle de cada tramo constante a lo largo del máster A."
+msgstr "Detall de cada tram constant al llarg del màster A."
+
+#: src/wavesync/core/sync.py:92
+msgid "Detectando bandas negras…"
+msgstr "Detectant bandes negres…"
+
+#: src/wavesync/core/export.py:621
+#, python-brace-format
+msgid "Duración de salida ({d:.2f} s) difiere de la del máster ({m:.2f} s)."
+msgstr "La durada d'eixida ({d:.2f} s) difereix de la del màster ({m:.2f} s)."
+
+#: src/wavesync/ui/export_view.py:1212
+msgid "Duración: OK"
+msgstr "Durada: OK"
+
+#: src/wavesync/ui/export_view.py:1212
+msgid "Duración: discrepancia"
+msgstr "Durada: discrepància"
+
+#: src/wavesync/ui/compare_view.py:316
+msgid "Ej.: castellano, 日本語, العربية, fra, eng…"
+msgstr "Ex.: català, castellà, 日本語, العربية, fra, eng…"
+
+#: src/wavesync/ui/timeline.py:69
+msgid "Ejecuta el análisis para visualizar la línea temporal de tramos y ventanas."
+msgstr "Executa l'anàlisi per visualitzar la línia temporal de trams i finestres."
+
+#: src/wavesync/ui/inputs_view.py:52
+msgid "El Archivo B no contiene vídeo: se usará el pipeline de audio como método principal (menor fiabilidad cuando los idiomas son distintos)."
+msgstr "El Fitxer B no conté vídeo: s'utilitzarà el pipeline d'àudio com a mètode principal (menor fiabilitat quan els idiomes són diferents)."
+
+#: src/wavesync/ui/preferences.py:188
+msgid "El análisis automático calcula offset, tempo y cambios de montaje. Después puedes alternar instantáneamente entre el audio A y el audio B."
+msgstr "L'anàlisi automàtica calcula offset, tempo i canvis de muntatge. Després pots alternar instantàniament entre l'àudio A i l'àudio B."
+
+#: src/wavesync/core/export.py:501
+msgid "El archivo de salida no puede ser el mismo que el de entrada."
+msgstr "El fitxer d'eixida no pot ser el mateix que el d'entrada."
+
+#: src/wavesync/core/export.py:563
+msgid "El archivo exportado no superó la verificación automática."
+msgstr "El fitxer exportat no ha superat la verificació automàtica."
+
+#: src/wavesync/ui/inputs_view.py:535
+msgid "El archivo máster no tiene ni vídeo ni audio."
+msgstr "El fitxer màster no té ni vídeo ni àudio."
+
+#: src/wavesync/ui/export_view.py:731
+#, python-brace-format
+msgid "El archivo no contiene pistas de audio: {name}"
+msgstr "El fitxer no conté pistes d'àudio: {name}"
+
+#: src/wavesync/core/probe.py:115
+#, python-brace-format
+msgid "El archivo «{name}» no existe."
+msgstr "El fitxer «{name}» no existeix."
+
+#: src/wavesync/ui/export_view.py:1117
+#, python-brace-format
+msgid "El archivo «{name}» ya existe en «{folder}». ¿Deseas reemplazarlo?"
+msgstr "El fitxer «{name}» ja existeix a «{folder}». Vols reemplaçar-lo?"
+
+#: src/wavesync/core/export.py:504
+#, python-brace-format
+msgid "El archivo «{name}» ya existe. Activa la confirmación de sobrescritura o elige otro nombre."
+msgstr "El fitxer «{name}» ja existeix. Activa la confirmació de sobreescriptura o tria un altre nom."
+
+#: src/wavesync/core/sync.py:537
+#, python-brace-format
+msgid "El audio corrigió el tempo a {t:.6f}."
+msgstr "L'àudio ha corregit el tempo a {t:.6f}."
+
+#: src/wavesync/ui/preferences.py:422
+msgid "El cambio se aplicará al reiniciar WaveSync"
+msgstr "El canvi s'aplicarà en reiniciar WaveSync"
+
+#: src/wavesync/core/export.py:305
+msgid "El contenedor MP4 tiene soporte limitado para subtítulos (p. ej. SRT/ASS), capítulos y algunos códecs de audio. Se recomienda MKV."
+msgstr "El contenidor MP4 té suport limitat per a subtítols (p. ex. SRT/ASS), capítols i alguns còdecs d'àudio. Es recomana MKV."
+
+#: src/wavesync/core/export.py:310
+#, python-brace-format
+msgid "El códec {c} no es compatible de forma estándar con MP4; usa MKV o elige AAC/AC3/Opus."
+msgstr "El còdec {c} no és compatible de manera estàndard amb MP4; utilitza MKV o tria AAC/AC3/Opus."
+
+#: src/wavesync/ui/preferences.py:229
+msgid "El modo simple muestra solo lo esencial. El modo experto añade calibración manual, parámetros de análisis y opciones avanzadas de exportación."
+msgstr "El mode simple mostra només allò essencial. El mode expert afig calibració manual, paràmetres d'anàlisi i opcions avançades d'exportació."
+
+#: src/wavesync/ui/preferences.py:431
+msgid "El modo simple oculta controles avanzados sin cambiar el resultado."
+msgstr "El mode simple oculta controls avançats sense canviar el resultat."
+
+#: src/wavesync/core/sync.py:467
+msgid "El refinamiento por audio no fue concluyente (probablemente diálogo dominante o mezclas muy distintas); se mantiene el resultado del vídeo."
+msgstr "El refinament per àudio no ha sigut concloent (probablement diàleg dominant o mescles molt diferents); es manté el resultat del vídeo."
+
+#: src/wavesync/ui/compare_view.py:131
+msgid "El reproductor y sus controles están abiertos en una ventana ampliada."
+msgstr "El reproductor i els seus controls estan oberts en una finestra ampliada."
+
+#: src/wavesync/core/export.py:593
+msgid "El stream de vídeo de salida no coincide con el del máster."
+msgstr "El flux de vídeo d'eixida no coincideix amb el del màster."
+
+#: src/wavesync/core/sync.py:281
+#, python-brace-format
+msgid "El tempo medido ({m:.6f}) se parece al preajuste {k}; compruébalo."
+msgstr "El tempo mesurat ({m:.6f}) s'assembla al preajust {k}; comprova-ho."
+
+#: src/wavesync/ui/export_view.py:143
+msgid "El vídeo, los subtítulos y los capítulos del Archivo A se copian siempre bit a bit sin recodificar (-c:v copy -c:s copy)."
+msgstr "El vídeo, els subtítols i els capítols del Fitxer A es copien sempre bit a bit sense recodificar (-c:v copy -c:s copy)."
+
+#: src/wavesync/ui/export_view.py:795
+msgid "Elegir carpeta de salida del lote"
+msgstr "Triar carpeta d'eixida del lot"
+
+#: src/wavesync/ui/export_view.py:243
+msgid "Elegir destino…"
+msgstr "Triar destinació…"
+
+#: src/wavesync/ui/inputs_view.py:90 src/wavesync/ui/inputs_view.py:125
+msgid "Elegir…"
+msgstr "Triar…"
+
+#: src/wavesync/ui/preferences.py:227
+msgid "Elige cómo quieres empezar"
+msgstr "Tria com vols començar"
+
+#: src/wavesync/ui/preferences.py:180
+msgid "Elige el vídeo máster A y la fuente B que contiene el audio deseado. WaveSync permite seleccionar la pista exacta, incluso en archivos multicanal."
+msgstr "Tria el vídeo màster A i la font B que conté l'àudio desitjat. WaveSync permet seleccionar la pista exacta, fins i tot en fitxers multicanal."
+
+#: src/wavesync/ui/preferences.py:363
+msgid "Eliminar"
+msgstr "Eliminar"
+
+#: src/wavesync/ui/preferences.py:354
+msgid "Eliminar del historial"
+msgstr "Eliminar de l'historial"
+
+#: src/wavesync/ui/preferences.py:361
+msgid "Eliminar entrada del historial"
+msgstr "Eliminar entrada de l'historial"
+
+#: src/wavesync/ui/preferences.py:240
+msgid "Empezar en modo simple"
+msgstr "Començar en mode simple"
+
+#: src/wavesync/ui/inputs_view.py:263
+msgid "Entendido"
+msgstr "Entés"
+
+#: src/wavesync/ui/window.py:270
+msgid "Error"
+msgstr "Error"
+
+#: src/wavesync/ui/export_view.py:736
+#, python-brace-format
+msgid "Error al leer archivo: {err}"
+msgstr "Error en llegir el fitxer: {err}"
+
+#: src/wavesync/ui/preferences.py:423
+msgid "Español"
+msgstr "Espanyol"
+
+#: src/wavesync/ui/preferences.py:361
+msgid "Esta acción no se puede deshacer."
+msgstr "Aquesta acció no es pot desfer."
+
+#: src/wavesync/ui/sync_view.py:120
+msgid "Estado de sincronización de cada película del lote. Pulsa «Ver detalle» para inspeccionar su línea temporal o «Comparar A/B» para ajustarla."
+msgstr "Estat de sincronització de cada pel·lícula del lot. Prem «Veure detall» per inspeccionar la línia temporal o «Comparar A/B» per ajustar-la."
+
+#: src/wavesync/ui/export_view.py:1174
+msgid "Exportación cancelada; archivo temporal eliminado."
+msgstr "Exportació cancel·lada; fitxer temporal eliminat."
+
+#: src/wavesync/core/export.py:566
+msgid "Exportación completada y verificada."
+msgstr "Exportació completada i verificada."
+
+#: src/wavesync/ui/export_view.py:1155
+#, python-brace-format
+msgid "Exportación completada y verificada: {name}"
+msgstr "Exportació completada i verificada: {name}"
+
+#: src/wavesync/ui/export_view.py:1104
+msgid "Exportación del lote cancelada."
+msgstr "Exportació del lot cancel·lada."
+
+#: src/wavesync/ui/preferences.py:340
+msgid "Exportado"
+msgstr "Exportat"
+
+#: src/wavesync/core/export.py:539
+#, python-brace-format
+msgid "Exportando ({p:.0%})…"
+msgstr "Exportant ({p:.0%})…"
+
+#: src/wavesync/ui/export_view.py:357
+msgid "Exportar lote"
+msgstr "Exportar lot"
+
+#: src/wavesync/ui/export_view.py:252 src/wavesync/ui/export_view.py:370
+msgid "Exportar y verificar con ffprobe"
+msgstr "Exportar i verificar amb ffprobe"
+
+#: src/wavesync/ui/export_view.py:355
+#, python-brace-format
+msgid "Exportar y verificar lote ({n} películas)"
+msgstr "Exportar i verificar lot ({n} pel·lícules)"
+
+#: src/wavesync/core/ffmpeg.py:114
+#, python-brace-format
+msgid "FFmpeg hardware: {backends}"
+msgstr "Maquinari FFmpeg: {backends}"
+
+#: src/wavesync/ui/compare_view.py:267
+msgid "Factor de tempo (6 decimales)"
+msgstr "Factor de tempo (6 decimals)"
+
+#: src/wavesync/ui/sync_view.py:143
+msgid "Factor de tempo (multiplicador sobre B)"
+msgstr "Factor de tempo (multiplicador sobre B)"
+
+#: src/wavesync/ui/inputs_view.py:639
+#, python-brace-format
+msgid "Faltan películas por emparejar (A: {a}, B: {b}) →"
+msgstr "Falten pel·lícules per aparellar (A: {a}, B: {b}) →"
+
+#: src/wavesync/ui/sync_view.py:83
+msgid "GCC-PHAT con atenuación vocal (recomendado)"
+msgstr "GCC-PHAT amb atenuació vocal (recomanat)"
+
+#: src/wavesync/ui/sync_view.py:84
+msgid "GCC-PHAT sobre canal lateral L−R (elimina diálogo central en estéreo)"
+msgstr "GCC-PHAT sobre canal lateral L−R (elimina diàleg central en estèreo)"
+
+#: src/wavesync/ui/preferences.py:404
+msgid "General"
+msgstr "General"
+
+#: src/wavesync/ui/player.py:858
+#, python-brace-format
+msgid "Generando clip de 20 s con pista B ({desc})…"
+msgstr "Generant clip de 20 s amb pista B ({desc})…"
+
+#: src/wavesync/ui/preferences.py:452
+msgid "GitHub"
+msgstr "GitHub"
+
+#: src/wavesync/ui/export_view.py:805
+msgid "Guardar película sincronizada como…"
+msgstr "Guardar pel·lícula sincronitzada com a…"
+
+#: src/wavesync/ui/preferences.py:138 src/wavesync/ui/window.py:216
+msgid "Guía de configuración"
+msgstr "Guia de configuració"
+
+#: src/wavesync/ui/inputs_view.py:431 src/wavesync/ui/inputs_view.py:488
+msgid "Haz clic en «Añadir…» o arrastra archivos aquí para empezar"
+msgstr "Fes clic a «Afegir…» o arrossega fitxers ací per començar"
+
+#: src/wavesync/ui/inputs_view.py:123
+msgid "Haz clic en «Elegir…» o arrastra y suelta el archivo B aquí"
+msgstr "Fes clic a «Triar…» o arrossega i deixa anar el fitxer B ací"
+
+#: src/wavesync/ui/inputs_view.py:689
+msgid "Haz clic en «Elegir…» o arrastra y suelta un archivo aquí"
+msgstr "Fes clic a «Triar…» o arrossega i deixa anar un fitxer ací"
+
+#: src/wavesync/ui/inputs_view.py:88
+msgid "Haz clic en «Elegir…» o arrastra y suelta un archivo multimedia aquí"
+msgstr "Fes clic a «Triar…» o arrossega i deixa anar un fitxer multimèdia ací"
+
+#: src/wavesync/ui/preferences.py:296 src/wavesync/ui/window.py:78
+msgid "Historial de sincronizaciones"
+msgstr "Historial de sincronitzacions"
+
+#: src/wavesync/ui/timeline.py:98
+msgid "Hueco"
+msgstr "Buit"
+
+#: src/wavesync/ui/preferences.py:418
+msgid "Idioma"
+msgstr "Idioma"
+
+#: src/wavesync/ui/compare_view.py:325
+msgid "Idioma ISO 639-2 (/B y /T)"
+msgstr "Idioma ISO 639-2 (/B i /T)"
+
+#: src/wavesync/ui/preferences.py:421
+msgid "Idioma de la interfaz"
+msgstr "Idioma de la interfície"
+
+#: src/wavesync/core/export.py:635
+#, python-brace-format
+msgid "Idioma en pista #{i}: esperado «{e}», leído «{f}»."
+msgstr "Idioma a la pista #{i}: esperat «{e}», llegit «{f}»."
+
+#: src/wavesync/ui/export_view.py:186
+msgid "Ignorado en FLAC (sin pérdidas) y en copia directa"
+msgstr "Ignorat en FLAC (sense pèrdues) i en còpia directa"
+
+#: src/wavesync/ui/sync_view.py:80
+msgid "Independiente del idioma (música, efectos y ambiente)"
+msgstr "Independent de l'idioma (música, efectes i ambient)"
+
+#: src/wavesync/ui/export_view.py:954
+msgid "Iniciando exportación del lote…"
+msgstr "Iniciant exportació del lot…"
+
+#: src/wavesync/core/export.py:513 src/wavesync/ui/export_view.py:1141
+msgid "Iniciando exportación…"
+msgstr "Iniciant exportació…"
+
+#: src/wavesync/ui/sync_view.py:408
+msgid "Iniciando sincronización por lotes…"
+msgstr "Iniciant sincronització per lots…"
+
+#: src/wavesync/ui/sync_view.py:350
+msgid "Iniciando…"
+msgstr "Iniciant…"
+
+#: src/wavesync/ui/sync_view.py:97 src/wavesync/ui/sync_view.py:217
+msgid "Iniciar sincronización automática"
+msgstr "Iniciar sincronització automàtica"
+
+#: src/wavesync/ui/inputs_view.py:281
+#, python-brace-format
+msgid "Inspeccionando {n} películas del lote…"
+msgstr "Inspeccionant {n} pel·lícules del lot…"
+
+#: src/wavesync/core/batch.py:78
+#, python-brace-format
+msgid "La fuente no contiene audio: {path}"
+msgstr "La font no conté àudio: {path}"
+
+#: src/wavesync/ui/inputs_view.py:259
+msgid "Las listas de másteres y películas a sincronizar deben estar en el mismo orden. La primera fuente se sincronizará con el primer máster, la segunda con el segundo, etc."
+msgstr "Les llistes de màsters i pel·lícules a sincronitzar han d'estar en el mateix ordre. La primera font es sincronitzarà amb el primer màster, la segona amb el segon, etc."
+
+#: src/wavesync/core/sync.py:295
+msgid "Las mediciones son incoherentes entre sí."
+msgstr "Les mesures són incoherents entre si."
+
+#: src/wavesync/ui/inputs_view.py:369
+msgid "Las películas seleccionadas ya estaban en la lista"
+msgstr "Les pel·lícules seleccionades ja estaven a la llista"
+
+#: src/wavesync/ui/inputs_view.py:213
+msgid "Las películas ya estaban en la lista"
+msgstr "Les pel·lícules ja estaven a la llista"
+
+#: src/wavesync/ui/preferences.py:334
+msgid "Las sincronizaciones automáticas que realices aparecerán aquí."
+msgstr "Les sincronitzacions automàtiques que faces apareixeran ací."
+
+#: src/wavesync/ui/compare_view.py:305
+msgid "Lista completa ISO 639-2/B y /T (487 idiomas con nombre en español y endónimo) más campo libre y título en cualquier alfabeto Unicode."
+msgstr "Llista completa ISO 639-2/B i /T (487 idiomes amb nom en espanyol i endònim) més camp lliure i títol en qualsevol alfabet Unicode."
+
+#: src/wavesync/ui/inputs_view.py:612
+msgid "Lista de archivos con el doblaje en el mismo orden que la lista de másteres A."
+msgstr "Llista de fitxers amb el doblatge en el mateix ordre que la llista de màsters A."
+
+#: src/wavesync/ui/inputs_view.py:608
+msgid "Lista de películas máster de referencia en el orden deseado; vídeo, subtítulos y capítulos se conservan sin recodificar."
+msgstr "Llista de pel·lícules màster de referència en l'ordre desitjat; vídeo, subtítols i capítols es conserven sense recodificar."
+
+#: src/wavesync/ui/inputs_view.py:390
+msgid "Lista vaciada"
+msgstr "Llista buidada"
+
+#: src/wavesync/core/sync.py:306
+#, python-brace-format
+msgid "Localizando cambio de montaje {i}…"
+msgstr "Localitzant canvi de muntatge {i}…"
+
+#: src/wavesync/ui/export_view.py:1097
+#, python-brace-format
+msgid "Lote exportado y verificado: {ok}/{total} películas."
+msgstr "Lot exportat i verificat: {ok}/{total} pel·lícules."
+
+#: src/wavesync/ui/sync_view.py:453
+#, python-brace-format
+msgid "Lote sincronizado: {n} películas analizadas."
+msgstr "Lot sincronitzat: {n} pel·lícules analitzades."
+
+#: src/wavesync/ui/sync_view.py:151
+msgid "Línea temporal de tramos y ventanas"
+msgstr "Línia temporal de trams i finestres"
+
+#: src/wavesync/ui/export_view.py:161
+msgid "MKV por defecto (conserva todos los formatos de vídeo, subtítulos y metadatos)"
+msgstr "MKV per defecte (conserva tots els formats de vídeo, subtítols i metadades)"
+
+#: src/wavesync/ui/export_view.py:152
+msgid "MP4 (.mp4)"
+msgstr "MP4 (.mp4)"
+
+#: src/wavesync/ui/export_view.py:761
+msgid "MPEG-4 (.mp4) — Opcional: requiere subtítulos mov_text y puede limitar algunos formatos de audio."
+msgstr "MPEG-4 (.mp4) — Opcional: requereix subtítols mov_text i pot limitar alguns formats d'àudio."
+
+#: src/wavesync/ui/sync_view.py:570
+msgid "Material presente en A sin equivalente en B"
+msgstr "Material present a A sense equivalent a B"
+
+#: src/wavesync/ui/export_view.py:151
+msgid "Matroska (.mkv)"
+msgstr "Matroska (.mkv)"
+
+#: src/wavesync/ui/export_view.py:765
+msgid "Matroska (.mkv) — Recomendado: conserva vídeo, múltiples audios, subtítulos y capítulos."
+msgstr "Matroska (.mkv) — Recomanat: conserva vídeo, múltiples àudios, subtítols i capítols."
+
+#: src/wavesync/ui/export_view.py:157
+msgid "Matroska (.mkv): conserva vídeo, múltiples audios, subtítulos y capítulos."
+msgstr "Matroska (.mkv): conserva vídeo, múltiples àudios, subtítols i capítols."
+
+#: src/wavesync/ui/window.py:225
+msgid "Menú principal"
+msgstr "Menú principal"
+
+#: src/wavesync/ui/export_view.py:1211
+msgid "Metadatos (idioma/título): OK"
+msgstr "Metadades (idioma/títol): OK"
+
+#: src/wavesync/ui/compare_view.py:303
+msgid "Metadatos de la pista sincronizada"
+msgstr "Metadades de la pista sincronitzada"
+
+#: src/wavesync/ui/export_view.py:495
+#, python-brace-format
+msgid "Metadatos «{lang}» ({title}) aplicados a las {n} películas del lote."
+msgstr "Metadades «{lang}» ({title}) aplicades a les {n} pel·lícules del lot."
+
+#: src/wavesync/ui/export_view.py:1211
+msgid "Metadatos: discrepancia"
+msgstr "Metadades: discrepància"
+
+#: src/wavesync/ui/compare_view.py:222
+msgid "Modo clip pre-renderizado de 20 s (fallback)"
+msgstr "Mode clip prerenderitzat de 20 s (fallback)"
+
+#: src/wavesync/ui/compare_view.py:286
+msgid "Modo de procesamiento del tempo"
+msgstr "Mode de processament del tempo"
+
+#: src/wavesync/ui/preferences.py:430
+msgid "Modo de uso"
+msgstr "Mode d'ús"
+
+#: src/wavesync/ui/preferences.py:435
+msgid "Modo experto"
+msgstr "Mode expert"
+
+#: src/wavesync/ui/window.py:346
+msgid "Modo experto activado"
+msgstr "Mode expert activat"
+
+#: src/wavesync/ui/inputs_view.py:64
+msgid "Modo por lotes"
+msgstr "Mode per lots"
+
+#: src/wavesync/ui/window.py:346
+msgid "Modo simple activado"
+msgstr "Mode simple activat"
+
+#: src/wavesync/ui/preferences.py:436
+msgid "Mostrar calibración, procesamiento y opciones avanzadas de exportación"
+msgstr "Mostrar calibració, processament i opcions avançades d'exportació"
+
+#: src/wavesync/ui/compare_view.py:269
+msgid "Multiplicador sobre la velocidad del audio B (1.000000 = sin cambio)."
+msgstr "Multiplicador sobre la velocitat de l'àudio B (1.000000 = sense canvi)."
+
+#: src/wavesync/ui/export_view.py:621
+msgid "Ninguna"
+msgstr "Cap"
+
+#: src/wavesync/ui/export_view.py:352
+msgid "Ninguna carpeta seleccionada"
+msgstr "Cap carpeta seleccionada"
+
+#: src/wavesync/ui/inputs_view.py:487
+msgid "Ninguna película fuente añadida"
+msgstr "Cap pel·lícula font afegida"
+
+#: src/wavesync/ui/inputs_view.py:430
+msgid "Ninguna película máster añadida"
+msgstr "Cap pel·lícula màster afegida"
+
+#: src/wavesync/ui/sync_view.py:515
+msgid "Ninguno"
+msgstr "Cap"
+
+#: src/wavesync/ui/inputs_view.py:87 src/wavesync/ui/inputs_view.py:122
+#: src/wavesync/ui/inputs_view.py:688
+msgid "Ningún archivo seleccionado"
+msgstr "Cap fitxer seleccionat"
+
+#: src/wavesync/ui/export_view.py:241 src/wavesync/ui/export_view.py:842
+msgid "Ningún destino seleccionado"
+msgstr "Cap destinació seleccionada"
+
+#: src/wavesync/core/export.py:317
+msgid "No es posible copiar el audio sin recodificar cuando hay cambio de tempo o múltiples tramos; se recodificará en AAC."
+msgstr "No és possible copiar l'àudio sense recodificar quan hi ha canvi de tempo o múltiples trams; es recodificarà en AAC."
+
+#: src/wavesync/core/models.py:112
+msgid "No fiable, revisar manualmente"
+msgstr "No fiable, revisar manualment"
+
+#: src/wavesync/ui/export_view.py:410 src/wavesync/ui/sync_view.py:241
+msgid "No hay películas preparadas en el lote"
+msgstr "No hi ha pel·lícules preparades al lot"
+
+#: src/wavesync/core/sync.py:260
+msgid "No se encontró correspondencia fiable entre A y B. ¿Son la misma película?"
+msgstr "No s'ha trobat correspondència fiable entre A i B. Són la mateixa pel·lícula?"
+
+#: src/wavesync/core/ffmpeg.py:80
+msgid "No se encontró ffmpeg/ffprobe. Instálalo (p. ej. «sudo dnf install ffmpeg» o «sudo apt install ffmpeg») o define la variable WAVESYNC_FFMPEG."
+msgstr "No s'ha trobat ffmpeg/ffprobe. Instal·la'l (p. ex. «sudo dnf install ffmpeg» o «sudo apt install ffmpeg») o defineix WAVESYNC_FFMPEG."
+
+#: src/wavesync/ui/export_view.py:559
+msgid "No se han añadido subtítulos externos"
+msgstr "No s'han afegit subtítols externs"
+
+#: src/wavesync/core/ffmpeg.py:140
+#, python-brace-format
+msgid "No se pudo ejecutar {prog}."
+msgstr "No s'ha pogut executar {prog}."
+
+#: src/wavesync/core/export.py:524
+msgid "No se pudo iniciar ffmpeg para exportar."
+msgstr "No s'ha pogut iniciar ffmpeg per exportar."
+
+#: src/wavesync/core/probe.py:124
+#, python-brace-format
+msgid "No se pudo leer «{name}»: el archivo está dañado o no es un formato multimedia."
+msgstr "No s'ha pogut llegir «{name}»: el fitxer està danyat o no és un format multimèdia."
+
+#: src/wavesync/ui/player.py:571
+msgid "No se pudo preparar la pista B; se usará la reproducción directa."
+msgstr "No s'ha pogut preparar la pista B; s'utilitzarà la reproducció directa."
+
+#: src/wavesync/ui/sync_view.py:146
+msgid "Observaciones"
+msgstr "Observacions"
+
+#: src/wavesync/ui/compare_view.py:248
+msgid "Offset de sincronización (ms)"
+msgstr "Offset de sincronització (ms)"
+
+#: src/wavesync/ui/sync_view.py:140
+msgid "Offset principal"
+msgstr "Offset principal"
+
+#: src/wavesync/ui/export_view.py:446
+#, python-brace-format
+msgid "Offset: {ms:+.1f} ms · Tempo: {tempo:.6f}{segs} · Idioma: {lang}"
+msgstr "Offset: {ms:+.1f} ms · Tempo: {tempo:.6f}{segs} · Idioma: {lang}"
+
+#: src/wavesync/core/errors.py:48
+msgid "Operación cancelada."
+msgstr "Operació cancel·lada."
+
+#: src/wavesync/ui/inputs_view.py:257
+msgid "Orden de las películas"
+msgstr "Ordre de les pel·lícules"
+
+#: src/wavesync/ui/preferences.py:412
+msgid "Oscuro"
+msgstr "Fosc"
+
+#: src/wavesync/ui/preferences.py:281
+#, python-brace-format
+msgid "Paso {current} de {total}"
+msgstr "Pas {current} de {total}"
+
+#: src/wavesync/ui/compare_view.py:788
+msgid "Pausar (Espacio)"
+msgstr "Pausar (Espai)"
+
+#: src/wavesync/ui/compare_view.py:77
+msgid "Película activa del lote"
+msgstr "Pel·lícula activa del lot"
+
+#: src/wavesync/ui/inputs_view.py:81 src/wavesync/ui/inputs_view.py:645
+msgid "Película de referencia cuyo vídeo, subtítulos y capítulos se conservarán sin recodificar."
+msgstr "Pel·lícula de referència el vídeo, subtítols i capítols de la qual es conservaran sense recodificar."
+
+#: src/wavesync/ui/compare_view.py:87
+msgid "Película en el comparador A/B"
+msgstr "Pel·lícula en el comparador A/B"
+
+#: src/wavesync/ui/sync_view.py:118
+msgid "Películas del lote"
+msgstr "Pel·lícules del lot"
+
+#: src/wavesync/ui/sync_view.py:234
+#, python-brace-format
+msgid "Películas del lote ({done}/{total} sincronizadas)"
+msgstr "Pel·lícules del lot ({done}/{total} sincronitzades)"
+
+#: src/wavesync/ui/export_view.py:130
+msgid "Películas del lote a exportar"
+msgstr "Pel·lícules del lot a exportar"
+
+#: src/wavesync/ui/export_view.py:405
+#, python-brace-format
+msgid "Películas del lote a exportar ({n})"
+msgstr "Pel·lícules del lot a exportar ({n})"
+
+#: src/wavesync/ui/sync_view.py:135 src/wavesync/ui/sync_view.py:509
+msgid "Pendiente de análisis"
+msgstr "Pendent d'anàlisi"
+
+#: src/wavesync/ui/sync_view.py:277
+msgid "Pendiente de sincronizar"
+msgstr "Pendent de sincronitzar"
+
+#: src/wavesync/ui/compare_view.py:491
+#, python-brace-format
+msgid "Pista A activa en comparador: {desc}"
+msgstr "Pista A activa en comparador: {desc}"
+
+#: src/wavesync/core/batch.py:89
+#, python-brace-format
+msgid "Pista A inválida ({track}) para {name}; hay {count} pista(s)."
+msgstr "Pista A invàlida ({track}) per a {name}; hi ha {count} pista/es."
+
+#: src/wavesync/ui/compare_view.py:480
+#, python-brace-format
+msgid "Pista B activa en comparador: {desc}"
+msgstr "Pista B activa en comparador: {desc}"
+
+#: src/wavesync/core/batch.py:81
+#, python-brace-format
+msgid "Pista B inválida ({track}) para {name}; hay {count} pista(s)."
+msgstr "Pista B invàlida ({track}) per a {name}; hi ha {count} pista/es."
+
+#: src/wavesync/ui/compare_view.py:215
+msgid "Pista de Audio A (máster original)"
+msgstr "Pista d'Àudio A (màster original)"
+
+#: src/wavesync/ui/compare_view.py:208
+msgid "Pista de Audio B (sincronizado)"
+msgstr "Pista d'Àudio B (sincronitzat)"
+
+#: src/wavesync/ui/inputs_view.py:139
+msgid "Pista de audio de B a sincronizar"
+msgstr "Pista d'àudio de B a sincronitzar"
+
+#: src/wavesync/ui/inputs_view.py:104
+msgid "Pista de audio de referencia en A"
+msgstr "Pista d'àudio de referència en A"
+
+#: src/wavesync/ui/inputs_view.py:576
+#, python-brace-format
+msgid "Pista de fuente B seleccionada: {desc}"
+msgstr "Pista de font B seleccionada: {desc}"
+
+#: src/wavesync/ui/compare_view.py:209
+msgid "Pista de la fuente B que se reproduce al pulsar Tab / B"
+msgstr "Pista de la font B que es reprodueix en prémer Tab / B"
+
+#: src/wavesync/ui/inputs_view.py:565
+#, python-brace-format
+msgid "Pista de referencia A: {desc}"
+msgstr "Pista de referència A: {desc}"
+
+#: src/wavesync/ui/compare_view.py:216
+msgid "Pista del Archivo A que se reproduce como referencia original"
+msgstr "Pista del Fitxer A que es reprodueix com a referència original"
+
+#: src/wavesync/ui/export_view.py:613
+msgid "Pistas a sincronizar"
+msgstr "Pistes a sincronitzar"
+
+#: src/wavesync/ui/export_view.py:217 src/wavesync/ui/export_view.py:367
+#: src/wavesync/ui/export_view.py:371
+msgid "Pistas a sincronizar e incluir en la exportación"
+msgstr "Pistes a sincronitzar i incloure en l'exportació"
+
+#: src/wavesync/ui/export_view.py:361
+#, python-brace-format
+msgid "Pistas a sincronizar — #{i}: {name}"
+msgstr "Pistes a sincronitzar — #{i}: {name}"
+
+#: src/wavesync/ui/compare_view.py:200
+msgid "Pistas activas en el comparador A/B"
+msgstr "Pistes actives en el comparador A/B"
+
+#: src/wavesync/ui/export_view.py:209
+msgid "Pistas de audio originales del máster"
+msgstr "Pistes d'àudio originals del màster"
+
+#: src/wavesync/ui/export_view.py:1210
+msgid "Pistas de audio: OK"
+msgstr "Pistes d'àudio: OK"
+
+#: src/wavesync/ui/export_view.py:1210
+msgid "Pistas: error"
+msgstr "Pistes: error"
+
+#: src/wavesync/ui/export_view.py:171
+msgid "Por defecto usa el códec de la pista B seleccionada cuando es compatible; conserva el layout de canales (p. ej. 5.1)"
+msgstr "Per defecte empra el còdec de la pista B seleccionada quan és compatible; conserva la distribució de canals (p. ex. 5.1)"
+
+#: src/wavesync/ui/compare_view.py:224
+msgid "Pre-renderiza con FFmpeg un fragmento de 20 s con ambas pistas si el contenedor da problemas de seek en vivo."
+msgstr "Prerenderitza amb FFmpeg un fragment de 20 s amb ambdues pistes si el contenidor dóna problemes de cerca en viu."
+
+#: src/wavesync/ui/compare_view.py:278
+msgid "Preajustes de conversión de framerate"
+msgstr "Preajustos de conversió de framerate"
+
+#: src/wavesync/ui/preferences.py:399 src/wavesync/ui/window.py:215
+msgid "Preferencias"
+msgstr "Preferències"
+
+#: src/wavesync/core/sync.py:191
+#, python-brace-format
+msgid "Probando factor de tempo {t:.6f}…"
+msgstr "Provant factor de tempo {t:.6f}…"
+
+#: src/wavesync/ui/export_view.py:219
+msgid "Puedes añadir varias pistas del mismo archivo o de archivos adicionales con los mismos parámetros de sincronización."
+msgstr "Pots afegir diverses pistes del mateix fitxer o de fitxers addicionals amb els mateixos paràmetres de sincronització."
+
+#: src/wavesync/ui/compare_view.py:202
+msgid "Puedes cambiar aquí mismo qué pista del Archivo B quieres escuchar y sincronizar."
+msgstr "Pots canviar ací mateix quina pista del Fitxer B vols escoltar i sincronitzar."
+
+#: src/wavesync/ui/compare_view.py:334
+msgid "Puedes escribir cualquier código de 3 letras o etiqueta personalizada"
+msgstr "Pots escriure qualsevol codi de 3 lletres o etiqueta personalitzada"
+
+#: src/wavesync/ui/inputs_view.py:449 src/wavesync/ui/inputs_view.py:506
+msgid "Quitar de la lista"
+msgstr "Treure de la llista"
+
+#: src/wavesync/ui/export_view.py:683
+msgid "Quitar pista de la lista"
+msgstr "Treure pista de la llista"
+
+#: src/wavesync/ui/export_view.py:571
+msgid "Quitar subtítulo"
+msgstr "Treure subtítol"
+
+#: src/wavesync/ui/sync_view.py:67
+msgid "Rango de búsqueda inicial (± segundos)"
+msgstr "Rang de cerca inicial (± segons)"
+
+#: src/wavesync/ui/compare_view.py:250
+msgid "Rango −600 000 a +600 000 ms (paso 0.5 ms). Positivo = B entra más tarde."
+msgstr "Rang −600 000 a +600 000 ms (pas 0.5 ms). Positiu = B entra més tard."
+
+#: src/wavesync/ui/export_view.py:201
+msgid "Recorta, concatena y rellena con silencio según los tramos detectados en la Etapa 3"
+msgstr "Retalla, concatena i ompli amb silenci segons els trams detectats en l'Etapa 3"
+
+#: src/wavesync/ui/sync_view.py:79
+msgid "Refinamiento por audio (Etapa 2)"
+msgstr "Refinament per àudio (Etapa 2)"
+
+#: src/wavesync/core/sync.py:437
+#, python-brace-format
+msgid "Refinando con audio {i} de {n}…"
+msgstr "Refinant amb àudio {i} de {n}…"
+
+#: src/wavesync/ui/sync_view.py:74
+msgid "Repartidas a lo largo de la película para estimar tempo y tramos"
+msgstr "Repartides al llarg de la pel·lícula per estimar tempo i trams"
+
+#: src/wavesync/ui/compare_view.py:692
+#, python-brace-format
+msgid "Reproduciendo Audio A original ({desc})"
+msgstr "Reproduint Àudio A original ({desc})"
+
+#: src/wavesync/ui/compare_view.py:690
+#, python-brace-format
+msgid "Reproduciendo Audio B sincronizado ({desc})"
+msgstr "Reproduint Àudio B sincronitzat ({desc})"
+
+#: src/wavesync/ui/compare_view.py:179 src/wavesync/ui/compare_view.py:788
+msgid "Reproducir (Espacio)"
+msgstr "Reproduir (Espai)"
+
+#: src/wavesync/ui/compare_view.py:751
+msgid "Reproductor A/B — WaveSync"
+msgstr "Reproductor A/B — WaveSync"
+
+#: src/wavesync/core/models.py:111
+msgid "Requiere tramos"
+msgstr "Requereix trams"
+
+#: src/wavesync/ui/sync_view.py:129 src/wavesync/ui/sync_view.py:503
+msgid "Resultado y veredicto"
+msgstr "Resultat i veredicte"
+
+#: src/wavesync/ui/sync_view.py:497
+#, python-brace-format
+msgid "Resultado y veredicto — #{i}: {name}"
+msgstr "Resultat i veredicte — #{i}: {name}"
+
+#: src/wavesync/ui/sync_view.py:130
+msgid "Resumen de los parámetros calculados por el motor."
+msgstr "Resum dels paràmetres calculats pel motor."
+
+#: src/wavesync/ui/preferences.py:196
+msgid "Revisa el resultado y exporta a MKV o MP4. La aplicación verifica automáticamente el archivo final con ffprobe."
+msgstr "Revisa el resultat i exporta a MKV o MP4. L'aplicació verifica automàticament el fitxer final amb ffprobe."
+
+#: src/wavesync/ui/export_view.py:453
+#, python-brace-format
+msgid "Se analizará automáticamente al exportar · Idioma: {lang}"
+msgstr "S'analitzarà automàticament en exportar · Idioma: {lang}"
+
+#: src/wavesync/ui/inputs_view.py:207 src/wavesync/ui/inputs_view.py:363
+#, python-brace-format
+msgid "Se añadieron {n} películas a sincronizar"
+msgstr "S'han afegit {n} pel·lícules a sincronitzar"
+
+#: src/wavesync/ui/inputs_view.py:203 src/wavesync/ui/inputs_view.py:359
+#, python-brace-format
+msgid "Se añadieron {n} películas al máster"
+msgstr "S'han afegit {n} pel·lícules al màster"
+
+#: src/wavesync/ui/export_view.py:734 src/wavesync/ui/inputs_view.py:547
+#, python-brace-format
+msgid "Se añadieron {n} pistas de audio de «{name}»"
+msgstr "S'han afegit {n} pistes d'àudio de «{name}»"
+
+#: src/wavesync/ui/inputs_view.py:205 src/wavesync/ui/inputs_view.py:361
+msgid "Se añadió 1 película a sincronizar"
+msgstr "S'ha afegit 1 pel·lícula a sincronitzar"
+
+#: src/wavesync/ui/inputs_view.py:201 src/wavesync/ui/inputs_view.py:357
+msgid "Se añadió 1 película al máster"
+msgstr "S'ha afegit 1 pel·lícula al màster"
+
+#: src/wavesync/ui/export_view.py:192
+msgid "Se copian sin recodificar (-c:a copy) junto a las nuevas pistas de B"
+msgstr "Es copien sense recodificar (-c:a copy) al costat de les noves pistes de B"
+
+#: src/wavesync/core/sync.py:344
+#, python-brace-format
+msgid "Se detectaron {n} tramos con desfases distintos (montajes diferentes)."
+msgstr "S'han detectat {n} trams amb desplaçaments diferents (muntatges diferents)."
+
+#: src/wavesync/ui/preferences.py:375
+msgid "Se eliminarán todas las sincronizaciones guardadas."
+msgstr "S'eliminaran totes les sincronitzacions guardades."
+
+#: src/wavesync/ui/export_view.py:235
+msgid "Se escribe en un archivo temporal oculto y se renombra atómicamente al terminar."
+msgstr "S'escriu en un fitxer temporal ocult i es reanomena atòmicament en acabar."
+
+#: src/wavesync/core/export.py:611
+#, python-brace-format
+msgid "Se esperaban {e} pistas de audio y se encontraron {f}."
+msgstr "S'esperaven {e} pistes d'àudio i s'han trobat {f}."
+
+#: src/wavesync/ui/inputs_view.py:379
+#, python-brace-format
+msgid "Se quitó «{name}» de la lista"
+msgstr "S'ha tret «{name}» de la llista"
+
+#: src/wavesync/ui/inputs_view.py:105
+msgid "Se usa para el refinamiento sub-milisegundo en la etapa 2 y el comparador A/B"
+msgstr "S'empra per al refinament submilisegon en l'etapa 2 i el comparador A/B"
+
+#: src/wavesync/ui/inputs_view.py:70
+msgid "Selecciona dos listas de películas en el mismo orden; la carpeta se pedirá al exportar"
+msgstr "Selecciona dues llistes de pel·lícules en el mateix ordre; la carpeta es demanarà en exportar"
+
+#: src/wavesync/ui/inputs_view.py:276
+msgid "Selecciona el mismo número de másteres y fuentes, en el mismo orden."
+msgstr "Selecciona el mateix nombre de màsters i fonts, en el mateix ordre."
+
+#: src/wavesync/ui/inputs_view.py:140
+msgid "Selecciona la pista que se analizará como referencia principal"
+msgstr "Selecciona la pista que s'analitzarà com a referència principal"
+
+#: src/wavesync/ui/export_view.py:638
+msgid "Selecciona primero el Archivo B en la pestaña Entradas."
+msgstr "Selecciona primer el Fitxer B a la pestanya Entrades."
+
+#: src/wavesync/ui/compare_view.py:79
+msgid "Selecciona qué película del lote quieres previsualizar y ajustar. Los ajustes de cada película se guardan de forma individual."
+msgstr "Selecciona quina pel·lícula del lot vols previsualitzar i ajustar. Els ajustos de cada pel·lícula es guarden individualment."
+
+#: src/wavesync/ui/export_view.py:614
+msgid "Selecciona qué pistas de audio incluir en el archivo final exportado"
+msgstr "Selecciona quines pistes d'àudio incloure al fitxer final exportat"
+
+#: src/wavesync/ui/compare_view.py:326
+msgid "Selecciona un idioma de la lista filtrada"
+msgstr "Selecciona un idioma de la llista filtrada"
+
+#: src/wavesync/ui/inputs_view.py:229
+msgid "Seleccionar Archivo A (máster)"
+msgstr "Seleccionar Fitxer A (màster)"
+
+#: src/wavesync/ui/inputs_view.py:230
+msgid "Seleccionar Archivo B (fuente)"
+msgstr "Seleccionar Fitxer B (font)"
+
+#: src/wavesync/ui/export_view.py:617
+msgid "Seleccionar todas las pistas"
+msgstr "Seleccionar totes les pistes"
+
+#: src/wavesync/ui/inputs_view.py:147
+msgid "Si tienes otros archivos con doblajes para sincronizar con este máster"
+msgstr "Si tens altres fitxers amb doblatges per sincronitzar amb aquest màster"
+
+#: src/wavesync/ui/preferences.py:264
+msgid "Siguiente"
+msgstr "Següent"
+
+#: src/wavesync/ui/compare_view.py:101
+msgid "Siguiente ▶"
+msgstr "Següent ▶"
+
+#: src/wavesync/ui/compare_view.py:422
+msgid "Sin coincidencias (usa el campo libre)"
+msgstr "Sense coincidències (empra el camp lliure)"
+
+#: src/wavesync/ui/compare_view.py:274
+msgid "Sin conversión (1.000000)"
+msgstr "Sense conversió (1.000000)"
+
+#: src/wavesync/ui/inputs_view.py:99 src/wavesync/ui/inputs_view.py:134
+#: src/wavesync/ui/inputs_view.py:690
+msgid "Sin datos"
+msgstr "Sense dades"
+
+#: src/wavesync/ui/preferences.py:333
+msgid "Sin historial"
+msgstr "Sense historial"
+
+#: src/wavesync/ui/sync_view.py:562
+msgid "Sin incidencias."
+msgstr "Sense incidències."
+
+#: src/wavesync/ui/compare_view.py:390
+msgid "Sin películas en el lote"
+msgstr "Sense pel·lícules al lot"
+
+#: src/wavesync/ui/inputs_view.py:713
+msgid "Sin pista de vídeo (solo audio)"
+msgstr "Sense pista de vídeo (només àudio)"
+
+#: src/wavesync/ui/export_view.py:637
+msgid "Sin pistas cargadas"
+msgstr "Sense pistes carregades"
+
+#: src/wavesync/ui/inputs_view.py:691 src/wavesync/ui/inputs_view.py:724
+msgid "Sin pistas de audio"
+msgstr "Sense pistes d'àudio"
+
+#: src/wavesync/ui/compare_view.py:570
+msgid "Sin pistas en A"
+msgstr "Sense pistes a A"
+
+#: src/wavesync/ui/compare_view.py:555
+msgid "Sin pistas en B"
+msgstr "Sense pistes a B"
+
+#: src/wavesync/core/sync.py:103
+msgid "Sin vídeo en ambos archivos hace falta una pista de audio del máster."
+msgstr "Sense vídeo en ambdós fitxers cal una pista d'àudio del màster."
+
+#: data/io.github.wavesync.WaveSync.desktop:8
+msgid "Sincroniza automáticamente pistas de audio dobladas e insértalas en vídeo de alta calidad sin recodificar"
+msgstr "Sincronitza automàticament pistes d'àudio doblades amb vídeo d'alta qualitat sense recodificar-lo"
+
+#: src/wavesync/ui/preferences.py:172
+msgid "Sincroniza una pista de audio con un vídeo máster conservando el vídeo, los subtítulos y los capítulos sin recodificarlos."
+msgstr "Sincronitza una pista d'àudio amb un vídeo màster conservant el vídeo, els subtítols i els capítols sense recodificar-los."
+
+#: src/wavesync/ui/window.py:326
+msgid "Sincroniza una pista de audio de cualquier idioma con un vídeo máster sin recodificar el vídeo."
+msgstr "Sincronitza una pista d'àudio de qualsevol idioma amb un vídeo màster sense recodificar el vídeo."
+
+#: src/wavesync/ui/inputs_view.py:65
+msgid "Sincroniza varias películas usando el mismo orden: máster 1 con fuente 1, máster 2 con fuente 2…"
+msgstr "Sincronitza diverses pel·lícules emprant el mateix ordre: màster 1 amb font 1, màster 2 amb font 2…"
+
+#: src/wavesync/ui/compare_view.py:256
+msgid "Sincronización multi-tramo por zonas"
+msgstr "Sincronització multitram per zones"
+
+#: src/wavesync/ui/sync_view.py:464
+msgid "Sincronización por lotes cancelada."
+msgstr "Sincronització per lots cancel·lada."
+
+#: src/wavesync/core/models.py:110
+msgid "Sincronización simple fiable"
+msgstr "Sincronització simple fiable"
+
+#: data/io.github.wavesync.WaveSync.desktop:5
+msgid "Sincronizador de pistas de audio para vídeo"
+msgstr "Sincronitzador de pistes d'àudio per a vídeo"
+
+#: src/wavesync/ui/splash.py:63
+msgid "Sincronizador universal de pistas de audio"
+msgstr "Sincronitzador universal de pistes d'àudio"
+
+#: src/wavesync/ui/sync_view.py:210
+msgid "Sincronizar lote"
+msgstr "Sincronitzar lot"
+
+#: src/wavesync/ui/sync_view.py:208
+#, python-brace-format
+msgid "Sincronizar todo el lote ({n} películas)"
+msgstr "Sincronitzar tot el lot ({n} pel·lícules)"
+
+#: src/wavesync/ui/preferences.py:412
+msgid "Sistema"
+msgstr "Sistema"
+
+#: src/wavesync/ui/export_view.py:1122
+msgid "Sobrescribir"
+msgstr "Sobreescriure"
+
+#: src/wavesync/ui/sync_view.py:525
+msgid "Solo audio"
+msgstr "Només àudio"
+
+#: src/wavesync/ui/compare_view.py:347
+msgid "Soporta cualquier script Unicode: «Castellano», «日本語», «Français (VF)», «العربية»…"
+msgstr "Admet qualsevol script Unicode: «Català», «Castellano», «日本語», «Français (VF)», «العربية»…"
+
+#: src/wavesync/ui/inputs_view.py:98
+msgid "Stream de vídeo"
+msgstr "Flux de vídeo"
+
+#: src/wavesync/ui/inputs_view.py:133
+msgid "Stream de vídeo en B"
+msgstr "Flux de vídeo a B"
+
+#: src/wavesync/ui/export_view.py:226
+msgid "Subtítulos adicionales"
+msgstr "Subtítols addicionals"
+
+#: src/wavesync/ui/preferences.py:410
+msgid "Tema"
+msgstr "Tema"
+
+#: src/wavesync/ui/export_view.py:616
+msgid "Todas"
+msgstr "Totes"
+
+#: src/wavesync/ui/export_view.py:712 src/wavesync/ui/inputs_view.py:241
+#: src/wavesync/ui/inputs_view.py:319
+msgid "Todos los archivos"
+msgstr "Tots els fitxers"
+
+#: src/wavesync/ui/sync_view.py:569
+#, python-brace-format
+msgid "Tramo #{i}: {r} — Hueco (relleno con silencio)"
+msgstr "Tram #{i}: {r} — Buit (farcit amb silenci)"
+
+#: src/wavesync/ui/sync_view.py:574
+#, python-brace-format
+msgid "Tramo #{i}: {r} — Offset {ms:+.1f} ms"
+msgstr "Tram #{i}: {r} — Offset {ms:+.1f} ms"
+
+#: src/wavesync/ui/sync_view.py:165
+msgid "Tramos de montaje detectados"
+msgstr "Trams de muntatge detectats"
+
+#: src/wavesync/ui/export_view.py:672
+msgid "Título (p. ej. Castellano)"
+msgstr "Títol (p. ex. Català)"
+
+#: src/wavesync/ui/compare_view.py:346
+msgid "Título de la pista"
+msgstr "Títol de la pista"
+
+#: src/wavesync/ui/export_view.py:675
+msgid "Título de la pista (Unicode)"
+msgstr "Títol de la pista (Unicode)"
+
+#: src/wavesync/core/export.py:642
+#, python-brace-format
+msgid "Título en pista #{i}: esperado «{e}», leído «{f}»."
+msgstr "Títol a la pista #{i}: esperat «{e}», llegit «{f}»."
+
+#: src/wavesync/ui/export_view.py:418
+msgid "Unificar metadatos de idioma y título en el lote"
+msgstr "Unificar metadades d'idioma i títol al lot"
+
+#: src/wavesync/ui/preferences.py:411
+msgid "Usar el tema del sistema o forzar el modo claro u oscuro"
+msgstr "Emprar el tema del sistema o forçar el mode clar o fosc"
+
+#: src/wavesync/ui/inputs_view.py:420 src/wavesync/ui/inputs_view.py:477
+msgid "Vaciar"
+msgstr "Buidar"
+
+#: src/wavesync/ui/sync_view.py:73
+msgid "Ventanas de medición (mínimo 20)"
+msgstr "Finestres de mesurament (mínim 20)"
+
+#: src/wavesync/ui/sync_view.py:293
+msgid "Ver detalle"
+msgstr "Veure detall"
+
+#: src/wavesync/ui/export_view.py:274
+msgid "Verificación automática post-exportación (ffprobe)"
+msgstr "Verificació automàtica postexportació (ffprobe)"
+
+#: src/wavesync/core/export.py:559
+msgid "Verificando archivo exportado…"
+msgstr "Verificant fitxer exportat…"
+
+#: src/wavesync/ui/inputs_view.py:116 src/wavesync/ui/inputs_view.py:649
+msgid "Versión con el doblaje o pista de audio deseada (vídeo de cualquier calidad o solo audio)."
+msgstr "Versió amb el doblatge o pista d'àudio desitjada (vídeo de qualsevol qualitat o només àudio)."
+
+#: src/wavesync/ui/sync_view.py:293
+msgid "Viendo"
+msgstr "Veient"
+
+#: src/wavesync/ui/export_view.py:411 src/wavesync/ui/sync_view.py:242
+msgid "Vuelve a la pestaña «1. Archivos» y pulsa «Continuar a sincronización por lotes»."
+msgstr "Torna a la pestanya «1. Fitxers» i prem «Continuar a sincronització per lots»."
+
+#: src/wavesync/ui/sync_view.py:525
+msgid "Vídeo"
+msgstr "Vídeo"
+
+#: src/wavesync/ui/sync_view.py:524
+msgid "Vídeo + Audio"
+msgstr "Vídeo + Àudio"
+
+#: src/wavesync/ui/export_view.py:1209
+msgid "Vídeo copiado sin recodificar: sí"
+msgstr "Vídeo copiat sense recodificar: sí"
+
+#: src/wavesync/ui/compare_view.py:189
+msgid "Vídeo lado a lado"
+msgstr "Vídeo costat a costat"
+
+#: src/wavesync/core/sync.py:471
+#, python-brace-format
+msgid "Vídeo y audio discrepan más de {ms:.0f} ms en {n} ventanas; revisa el resultado."
+msgstr "Vídeo i àudio discrepen més de {ms:.0f} ms en {n} finestres; revisa el resultat."
+
+#: src/wavesync/ui/export_view.py:1209
+msgid "Vídeo: discrepancia"
+msgstr "Vídeo: discrepància"
+
+#: src/wavesync/core/ffmpeg.py:67
+#, python-brace-format
+msgid "WAVESYNC_FFMPEG apunta a «{path}», pero ahí no hay ffmpeg y ffprobe ejecutables."
+msgstr "WAVESYNC_FFMPEG apunta a «{path}», però no hi ha ffmpeg i ffprobe executables."
+
+#: data/io.github.wavesync.WaveSync.desktop:2
+msgid "WaveSync"
+msgstr "WaveSync"
+
+#: data/io.github.wavesync.WaveSync.desktop:19
+msgid "audio;video;sync;dubbing;ffmpeg;mkv;doblaje;sincronizar;"
+msgstr "audio;video;sync;dubbing;ffmpeg;mkv;doblatge;sincronitzar;"
+
+#: src/wavesync/ui/sync_view.py:537
+msgid "el audio B entra más tarde → se inserta silencio al inicio"
+msgstr "l'àudio B entra més tard → s'inserix silenci a l'inici"
+
+#: src/wavesync/core/export.py:548
+#, python-brace-format
+msgid "ffmpeg falló durante la exportación (código {c})."
+msgstr "ffmpeg ha fallat durant l'exportació (codi {c})."
+
+#: src/wavesync/core/probe.py:130
+#, python-brace-format
+msgid "ffprobe devolvió datos ilegibles para «{name}»."
+msgstr "ffprobe ha tornat dades il·legibles per a «{name}»."
+
+#: src/wavesync/ui/export_view.py:523
+msgid "sin idioma"
+msgstr "sense idioma"
+
+#: src/wavesync/ui/export_view.py:497
+msgid "sin título"
+msgstr "sense títol"
+
+#: src/wavesync/ui/sync_view.py:539
+msgid "sobra inicio en el audio B → se recorta el principio"
+msgstr "sobra inici a l'àudio B → es retalla el principi"
+
+#: src/wavesync/ui/sync_view.py:265
+#, python-brace-format
+msgid "{badge} {verdict} · Offset: {ms:+.1f} ms · Tempo: {tempo:.6f} · Confianza: {c:.0%}{segs}"
+msgstr "{badge} {verdict} · Offset: {ms:+.1f} ms · Tempo: {tempo:.6f} · Confiança: {c:.0%}{segs}"
+
+#: src/wavesync/ui/preferences.py:343
+#, python-brace-format
+msgid "{date} · Offset {offset:+.3f} s · Tempo {tempo:.6f} · Confianza {confidence:.0%} · {verdict}{output}"
+msgstr "{date} · Offset {offset:+.3f} s · Tempo {tempo:.6f} · Confiança {confidence:.0%} · {verdict}{output}"
+
+#: src/wavesync/ui/export_view.py:1201
+#, python-brace-format
+msgid "{icon} Verificado: {name} ({n} pistas de audio, {dur:.1f} s)"
+msgstr "{icon} Verificat: {name} ({n} pistes d'àudio, {dur:.1f} s)"
+
+#: src/wavesync/ui/export_view.py:560
+#, python-brace-format
+msgid "{n} archivo(s) seleccionado(s)"
+msgstr "{n} fitxer(s) seleccionat(s)"
+
+#: src/wavesync/core/ffmpeg.py:156
+#, python-brace-format
+msgid "{prog} terminó con error (código {code})."
+msgstr "{prog} ha finalitzat amb error (codi {code})."
+
+#: src/wavesync/ui/export_view.py:652
+#, python-brace-format
+msgid "{sr} Hz · activa la casilla para incluir esta pista"
+msgstr "{sr} Hz · activa la casella per incloure aquesta pista"
+
+#: src/wavesync/ui/export_view.py:522
+#, python-brace-format
+msgid "{sr} Hz · {lang}"
+msgstr "{sr} Hz · {lang}"
+
+#: src/wavesync/ui/compare_view.py:288
+msgid "«atempo» conserva el tono original; «asetrate+aresample» varía el tono (ideal para corregir el +4 % de tono de doblajes PAL acelerados)."
+msgstr "«atempo» conserva el to original; «asetrate+aresample» varia el to (ideal per a corregir el +4 % de to dels doblatges PAL accelerats)."
+
+#: src/wavesync/core/probe.py:132
+#, python-brace-format
+msgid "«{name}» no contiene pistas multimedia."
+msgstr "«{name}» no conté pistes multimèdia."
+
+#: src/wavesync/core/probe.py:139
+#, python-brace-format
+msgid "«{name}» no tiene pistas de audio."
+msgstr "«{name}» no té pistes d'àudio."
+
+#: src/wavesync/ui/export_view.py:1116
+msgid "¿Sobrescribir archivo existente?"
+msgstr "Vols sobreescriure el fitxer existent?"
+
+#: src/wavesync/ui/compare_view.py:93
+msgid "◀ Anterior"
+msgstr "◀ Anterior"
+
+#: src/wavesync/ui/export_view.py:1078
+#, python-brace-format
+msgid "✅ Lote exportado y verificado: {ok}/{total} películas correctas"
+msgstr "✅ Lot exportat i verificat: {ok}/{total} pel·lícules correctes"

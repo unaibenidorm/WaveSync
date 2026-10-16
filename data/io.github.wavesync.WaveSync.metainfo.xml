@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.wavesync.WaveSync</id>
+  <name>WaveSync</name>
+  <summary>Sincronizador universal de pistas de audio para vídeo</summary>
+  <summary xml:lang="en">Universal audio track synchronizer for video</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer id="io.github.unaibenidorm">
+    <name>unaibenidorm</name>
+  </developer>
+  <url type="homepage">https://github.com/unaibenidorm/WaveSync</url>
+  <url type="bugtracker">https://github.com/unaibenidorm/WaveSync/issues</url>
+  <description>
+    <p>
+      WaveSync toma la pista de audio de una versión de baja calidad (en cualquier idioma)
+      y la sincroniza automáticamente y con precisión sub-milisegundo para insertarla en un
+      vídeo máster de alta calidad (4K/HDR) sin recodificar el vídeo.
+    </p>
+    <ul>
+      <li>Independiente del idioma: alineación principal por vídeo (normalización por rangos) y refinamiento por audio (GCC-PHAT).</li>
+      <li>Detección automática de cambios de montaje (tramos) y conversiones de framerate (PAL 25 fps ↔ 23.976 / 24 fps).</li>
+      <li>Comparador A/B en vivo con GStreamer y calibración manual de offset, tempo y tono.</li>
+      <li>Exportación a MKV/MP4 conservando vídeo, subtítulos y capítulos bit a bit, con verificación automática mediante ffprobe.</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">io.github.wavesync.WaveSync.desktop</launchable>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="0.1.0" date="2026-10-07">
+      <description>
+        <p>Versión inicial de WaveSync.</p>
+      </description>
+    </release>
+  </releases>
+</component>
+

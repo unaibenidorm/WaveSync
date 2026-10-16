@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wavesync"
+version = "0.1.0"
+description = "Sincronizador universal de pistas de audio para vídeo (GTK4/Libadwaita)"
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "PyGObject>=3.44",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+wavesync = "wavesync.__main__:main"
+wavesync-cli = "wavesync.core.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"wavesync" = ["locale/*/LC_MESSAGES/*.po", "locale/*/LC_MESSAGES/*.mo"]
+"wavesync.ui" = ["icons/hicolor/*/apps/*.png", "images/*.png", "images/*.jpg"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
+

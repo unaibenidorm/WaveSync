@@ -1,0 +1,65 @@
+# =============================================================================
+# WaveSync — Minimal .gitignore
+# Only the minimum essential code to clone and run from terminal is tracked.
+# =============================================================================
+
+# Default: ignore everything at the root
+/*
+
+# Whitelist essential repository files (only README.md among markdown files)
+!/.gitignore
+!/README.md
+!/LICENSE
+!/pyproject.toml
+!/requirements.txt
+
+# Whitelist essential source and asset directories
+!/src/
+!/data/
+!/img/
+!/po/
+
+# -----------------------------------------------------------------------------
+# Exclude tests, internal tools, packaging, environments and build artifacts
+# -----------------------------------------------------------------------------
+tests/
+tools/
+packaging/
+build/
+dist/
+*.AppImage
+*.flatpak
+.flatpak-builder/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Markdown files: exclude all markdown except README.md
+*.md
+!/README.md
+
+# Temporary files
+po/*.test
+po/*.bak
+*.tmp
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~

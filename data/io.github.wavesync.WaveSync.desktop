@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=WaveSync
+Name[ca]=WaveSync
+Name[en]=WaveSync
+GenericName=Sincronizador de pistas de audio para vídeo
+GenericName[ca]=Sincronitzador de pistes d'àudio per a vídeo
+GenericName[en]=Video Audio Track Synchronizer
+Comment=Sincroniza automáticamente pistas de audio dobladas e insértalas en vídeo de alta calidad sin recodificar
+Comment[ca]=Sincronitza automàticament pistes d'àudio doblades amb vídeo d'alta qualitat sense recodificar-lo
+Comment[en]=Automatically synchronize dubbed audio tracks into high-quality video without re-encoding
+Exec=wavesync %U
+Icon=io.github.wavesync.WaveSync
+Terminal=false
+Type=Application
+Categories=AudioVideo;AudioVideoEditing;GTK;GNOME;
+MimeType=video/x-matroska;video/mp4;video/x-msvideo;video/quicktime;
+StartupNotify=true
+StartupWMClass=io.github.wavesync.WaveSync
+Keywords=audio;video;sync;dubbing;ffmpeg;mkv;doblaje;sincronizar;
+
