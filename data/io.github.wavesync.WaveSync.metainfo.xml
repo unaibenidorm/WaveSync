@@ -27,6 +27,16 @@
   <launchable type="desktop-id">io.github.wavesync.WaveSync.desktop</launchable>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="0.1.1" date="2026-11-15">
+      <description>
+        <p>Correcciones de empaquetado y arranque:</p>
+        <ul>
+          <li>Los argumentos de la línea de órdenes (<code>--help</code>, rutas de archivo) ya no se descartan al abrir la interfaz.</li>
+          <li>Mensaje claro si falta PyGObject/GTK 4 en lugar de un traceback.</li>
+          <li>Las sesiones restauradas muestran su resultado inmediatamente.</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.0" date="2026-10-07">
       <description>
         <p>Versión inicial de WaveSync.</p>

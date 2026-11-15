@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wavesync"
-version = "0.1.0"
+version = "0.1.1"
 description = "Sincronizador universal de pistas de audio para vídeo (GTK4/Libadwaita)"
 readme = "README.md"
 license = "GPL-3.0-or-later"
