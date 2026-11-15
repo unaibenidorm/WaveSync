@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import sys
 
-_CLI_COMMANDS = {"probe", "analyze", "sync", "batch"}
+_CLI_COMMANDS = {"probe", "analyze", "sync", "batch", "-h", "--help"}
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -23,11 +23,27 @@ def main(argv: list[str] | None = None) -> int:
         return cli_main(args)
     try:
         from wavesync.ui.app import run_app
-    except ImportError:
-        from wavesync.core.cli import main as cli_main
-
-        return cli_main(args or ["--help"])
+    except ImportError as exc:
+        # Only fall back to the CLI when the GUI stack (PyGObject/GTK) is not
+        # available. Any other import error is a real bug and must be shown.
+        if not _is_gui_import_error(exc):
+            raise
+        sys.stderr.write(
+            "WaveSync: no se pudo cargar la interfaz gráfica (PyGObject/GTK 4).\n"
+            f"  Detalle: {exc}\n"
+            "  Instala PyGObject y GTK 4, o usa la interfaz de línea de órdenes:\n"
+            "    wavesync --cli --help\n"
+        )
+        return 1
     return run_app(args)
+
+
+def _is_gui_import_error(exc: BaseException) -> bool:
+    """Return True when *exc* comes from a missing PyGObject/GTK module."""
+    if isinstance(exc, ModuleNotFoundError):
+        return exc.name in {"gi", "gi.repository"} or (exc.name or "").startswith("gi.")
+    message = str(exc)
+    return "No module named 'gi'" in message or "PyGObject" in message
 
 
 if __name__ == "__main__":

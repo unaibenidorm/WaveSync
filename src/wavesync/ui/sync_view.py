@@ -185,6 +185,10 @@ class SyncView(Gtk.Box):
         self._update_expert_visibility()
         self._rebuild_batch_group()
         self._refresh_sensitivity()
+        # A view can be created after the state already holds a result (e.g.
+        # when restoring a session or building the window lazily), so render
+        # the current state once instead of waiting for the next change.
+        self._render_result(self.state.result)
 
     def _on_state_changed(self, topic: str) -> None:
         if topic in ("all", "inputs", "batch"):

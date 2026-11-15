@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import sys
+
 import gi
 
 gi.require_version("Gtk", "4.0")
@@ -46,4 +48,12 @@ class WaveSyncApplication(Adw.Application):
 
 def run_app(argv: list[str] | None = None) -> int:
     app = WaveSyncApplication()
-    return int(app.run(argv))
+    # Gio.Application.run() expects a full argv where argv[0] is the program
+    # name. The CLI entry point passes only the extra arguments, so rebuild
+    # argv; otherwise the first argument (e.g. a file path or --help) is
+    # consumed as the program name and ignored.
+    if argv is None:
+        full_argv = list(sys.argv)
+    else:
+        full_argv = [sys.argv[0] if sys.argv else "wavesync", *argv]
+    return int(app.run(full_argv))
